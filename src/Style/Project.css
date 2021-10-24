@@ -1,0 +1,82 @@
+@import './Home.css';
+@import './Navbar.css';
+.aboutme::before{
+    content: "02. ";
+}
+.proCont{
+    padding-top:50px ;
+    padding-bottom: 50px;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.proImg{
+    order: 0;
+}
+.proImg>img{
+    width: 100%;
+}
+.proText{
+    text-align: end;
+    width: 50%;
+}
+.proHeading{
+    margin-top: 15px;
+    line-height: 1px;
+}
+.proHeading>h1{
+    font-weight: bold;
+}
+.proSkills{
+    min-width: 300px;
+    /* border: 1px solid white; */
+    display: flex;
+}
+.proSkills>ul{
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    /* align-items: left; */
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    
+}
+.proLinks{
+    /* border: 1px solid rgb(2, 241, 94); */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-image: url(../ImgIco/triangle-right-arrow.svg);
+}
+.proLinks>div>a:hover{
+    color: var(--border);
+}
+.proLinks>div>a{
+
+    color: var(--line);
+    cursor: url('../ImgIco/Vector3.svg'), auto;
+}
+
+@media screen and (max-width: 720px){
+    .proImg{
+        text-align: center;
+    }
+    .proImg>img{
+        width: 100%;
+    }
+    .proText{
+        text-align: left;
+        width: 100%;
+    }   
+    .proCont{
+        width: 85%;
+        flex-direction: column;
+    }
+    .proSkills{
+        flex-wrap: wrap;
+    }
+}

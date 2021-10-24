@@ -1,0 +1,95 @@
+.NavBar{
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    counter-reset: section;
+    z-index: 1;
+}
+.Links{
+    display: flex;
+    align-items: center;
+    /* justify-content: s; */
+    flex-grow: 1;
+}
+
+.Links>li::before {
+    font-size: 13px;
+    color: var(--border);
+    counter-increment: section;
+    content:"0"counter(section)". ";
+}
+.Links>li{
+
+    cursor: url('../ImgIco/Vector3.svg'),not-allowed;
+    border: none;
+    color: var(--fontColor);
+    font-weight: 500;
+    white-space: nowrap;
+    list-style:none;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.Links>li:hover{
+    cursor: url('../ImgIco/Vector3.svg'),not-allowed;
+}
+.resume:hover{
+    cursor: url('../ImgIco/Vector3.svg'),not-allowed;
+}
+.withinLink{
+    color:inherit;
+    text-decoration: none;
+}
+.withinLink:hover{
+    color: black;
+    cursor: url('../ImgIco/Vector3.svg'),not-allowed;
+}
+.resume{
+    color: var(--fontColor);
+    padding: 10px 40px;
+    font-weight: bold;
+    border: 1px solid #00FFC2;
+}
+.logo{
+    
+    flex-grow: 4;
+}
+.Menu{
+    
+    display: none;
+}
+@media screen and (max-width:676px){
+    .Links{
+        display: none;
+    }
+    .Links2{
+        animation: aninav .2s alternate ;
+        transform: translateY(20%);
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .NavBar{
+        align-items: flex-start;
+    }
+    .Menu{
+        margin-top: 10px;
+        cursor: pointer;
+        margin-right: 10px;
+        display: block;
+        color: var(--border);
+    }
+    .Menu:hover{
+        cursor: url('../ImgIco/Vector3.svg'),not-allowed;
+    }
+}
+@keyframes aninav {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateY(20%);
+    }
+}

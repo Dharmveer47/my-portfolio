@@ -1,0 +1,15 @@
+@import url('./Home.css');
+@import url('./About.css');
+.contectMe{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme::before{
+    content: "04.";
+}
