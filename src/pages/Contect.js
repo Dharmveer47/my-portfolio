@@ -49,10 +49,12 @@ const Contect = () => {
         </div>
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            rem itaque suscipit labore minima deserunt, voluptates, quae beatae
-            rerum necessitatibus vero aliquam enim sequi et distinctio harum
-            officiis. Eius, voluptatibus?
+          Hey! Where are going . It's little quote for you. <br/> 
+          <span className="mynameis fw-normal">
+          “The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.” - Paul Rand
+          </span>
+          <br/>
+          Thank U
           </p>
         </div>
         <form className=" formfild mt-3 " onSubmit={sendEmail}>
