@@ -2,7 +2,7 @@ const ProjectsInfo = [
     {
         "id": "01",
         "Name": "Movie Space",
-        "Info": `Here's you can search any movies, tv showes and web serise also you can see movies info . Using The Movies DataBase API fetch data and disply iteams. it's fully responsive and Highly reusable components .`,
+        "Info": `Here's you can search any movies, tv shows and web series also you can see movies info . Using The Movies DataBase API fetch data and display items. it's fully responsive and Highly reusable components .`,
         "link": "https://movies47.netlify.app",
         "gitLink": "https://github.com/Dharmveer47/TheMovieDb",
         "skill": ['HTML5','Styled Components','React','API'],
