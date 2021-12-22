@@ -13,7 +13,7 @@ const ProjectsInfo = [
     {
         "id": "02",
         "Name": "Service Provider",
-        "Info": `This is simple UI   .`,
+        "Info": `This is simple UI Fully Responsive and reuseable Components  .`,
         "link": "https://insignia47.netlify.app/",
         "gitLink": "https://github.com/Dharmveer47/insigni",
         "skill": ['HTML5','CSS3','React Js'],
