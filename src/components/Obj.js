@@ -17,6 +17,7 @@ const ProjectsInfo = [
         "link": "https://insignia47.netlify.app/",
         "gitLink": "https://github.com/Dharmveer47/insigni",
         "skill": ['HTML5','CSS3','React Js'],
+        "left": "left",
         "img": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/Insignia.png",
         // "figma": "https://www.figma.com/file/JN0aLCqm5CifsX3AZ532f6/Portfolio",
         "figma": "https://www.figma.com/file/WK9IJLbqIrpt79HQYpUBLL/Frontend-developer-Assignment-(Copy)?node-id=413%3A3"
@@ -30,7 +31,7 @@ const ProjectsInfo = [
         "skill": ['HTML5','SASS','Java Script','API'],
         "img": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/Weather.png",
         "order": "1",
-        "left": "left",
+        
         "figma": "https://weather47.netlify.app"
     },
     {
@@ -41,6 +42,7 @@ const ProjectsInfo = [
         "gitLink": "https://codepen.io/dharmveer47/pen/rNmzgQy",
         "skill": ['HTML5','CSS3'],
         "img": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/foodies.png",
+        "left": "left",
         "figma": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/foodies.png"
     },
 ]
