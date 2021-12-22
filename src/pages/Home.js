@@ -64,7 +64,7 @@ const Home = () => {
           </div>
           <div>
             <a
-              href="https://www.instagram.com/c_cpp_/"
+              href="https://www.instagram.com/dharmveer.47/"
               rel="noopener noreferrer"
               target="_blank"
             >
