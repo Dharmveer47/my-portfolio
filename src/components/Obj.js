@@ -36,15 +36,15 @@ const ProjectsInfo = [
     },
     {
         "id": "04",
-        "Name": "Food Landing page ",
-        "Info": "It's beautiful food Landing page as you can see in pic. fully responsive , ",
-        "link": "https://codepen.io/dharmveer47/pen/rNmzgQy",
-        "gitLink": "https://codepen.io/dharmveer47/pen/rNmzgQy",
-        "skill": ['HTML5','CSS3'],
-        "img": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/foodies.png",
+        "Name": "Atg-world",
+        "Info": "It's a engineer bloging web app currently i am working this project ",
+        "link": "https://atg-world47.netlify.app/",
+        "gitLink": "https://github.com/Dharmveer47/Atg-World",
+        "skill": ['HTML5','CSS3', 'React Js'],
+        "img": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/Atg-world.png",
         "order": "1",
         "left": "left",
-        "figma": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/foodies.png"
+        "figma": "https://www.figma.com/file/78fUva6MgPJy6kbZDnLyVi/Groups---copy-(Copy)?node-id=0%3A1"
     },
 ]
 export default ProjectsInfo;
