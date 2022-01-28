@@ -52,8 +52,8 @@ const ProjectsInfo = [
         "Info": "It's a Doctor Courses website",
         "link": "https://dharmveer47.github.io/zuanintern/",
         "gitLink": "https://github.com/Dharmveer47/zuanintern/",
-        "skill": ['HTML5','SASS','Java Script','API'],
-        "img": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/Weather.png",
+        "skill": ['HTML5','CSS',' ',''],
+        "img": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/2022-01-28_080900.png",
         
         "figma": "https://github.com/Dharmveer47/zuanintern/"
     },
