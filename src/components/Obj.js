@@ -46,5 +46,16 @@ const ProjectsInfo = [
         "left": "left",
         "figma": "https://www.figma.com/file/78fUva6MgPJy6kbZDnLyVi/Groups---copy-(Copy)?node-id=0%3A1"
     },
+    {
+        "id": "04",
+        "Name": "ZUNA (An Internship assignment)",
+        "Info": "It's a Doctor Courses website",
+        "link": "https://dharmveer47.github.io/zuanintern/",
+        "gitLink": "https://github.com/Dharmveer47/zuanintern/",
+        "skill": ['HTML5','SASS','Java Script','API'],
+        "img": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/Weather.png",
+        
+        "figma": "https://github.com/Dharmveer47/zuanintern/"
+    },
 ]
 export default ProjectsInfo;
