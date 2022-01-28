@@ -47,7 +47,7 @@ const ProjectsInfo = [
         "figma": "https://www.figma.com/file/78fUva6MgPJy6kbZDnLyVi/Groups---copy-(Copy)?node-id=0%3A1"
     },
     {
-        "id": "04",
+        "id": "05",
         "Name": "ZUNA (An Internship assignment)",
         "Info": "It's a Doctor Courses website",
         "link": "https://dharmveer47.github.io/zuanintern/",
