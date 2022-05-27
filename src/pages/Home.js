@@ -50,7 +50,6 @@ const Home = () => {
         data-aos-duration="900"
         data-aos-delay="300"
       >
-  
         <div className="homeBody">
           <div className="mynameis">Hi, my name is </div>
           <div className="Dharmveer">Dharmveer Singh</div>
