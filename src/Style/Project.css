@@ -1,5 +1,6 @@
 @import './Home.css';
 @import './Navbar.css';
+/* // eslint-disable-next-line */
 .aboutme::before{
     content: "02. ";
 }
