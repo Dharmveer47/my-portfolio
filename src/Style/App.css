@@ -14,11 +14,13 @@
     src: url(../ImgIco/Ubuntu-Regular.ttf);
 }
 body{
+  
     cursor: url('../ImgIco/Vector.svg'), auto;	
     font-family: "Ubuntu";
     background-color: #201F44;
     color: white;
 }
+
 /* width */
 ::-webkit-scrollbar {
     background-color: #201F44;

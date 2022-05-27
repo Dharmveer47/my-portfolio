@@ -1,8 +1,9 @@
 .HomeStyle{
     z-index: -1;
     display: block;
+    padding-top: 80px;
+    padding-left: 50px;
     /* overflow:scroll; */
-   
     /* width: 100%; */
     box-sizing: border-box;
     height: 100%;
@@ -12,17 +13,18 @@
     justify-content: space-between;
 }
 .social{
-    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 200;
     /* top: 40vh; */
     /* bottom: -25vh; */
     margin: auto;
     /* border: 1px solid red; */
     height: 100%;
-    width: 25px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     flex-grow: 5;
     /* border: 1px rgb(255, 255, 255) solid; */
 }
