@@ -11,7 +11,6 @@ import {
 import { AiFillCloseSquare } from "react-icons/ai";
 import "../Style/Home.css";
 const Home = () => {
-  
   const [fromdnone, setFromdnone] = useState("inputfild2");
   const formShow = () => {
     if (fromdnone === "inputfild2") {
@@ -51,55 +50,6 @@ const Home = () => {
         data-aos-duration="900"
         data-aos-delay="300"
       >
-        <div className="social ">
-          <div>
-            <a
-              href="https://github.com/Dharmveer47"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              {" "}
-              <BsGithub style={{ width: "25px", height: "25px" }} />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.instagram.com/dharmveer.47/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <BsInstagram style={{ width: "25px", height: "25px" }} />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/dharmveer-singh-54401020a/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <BsLinkedin style={{ width: "25px", height: "25px" }} />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.facebook.com/dharmveer47"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              {" "}
-              <BsFacebook style={{ width: "25px", height: "25px" }} />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://twitter.com/DharmuBurning"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <BsTwitter style={{ width: "25px", height: "25px" }} />
-            </a>
-          </div>
-        </div>
         <div className="homeBody">
           <div className="mynameis">Hi, my name is </div>
           <div className="Dharmveer">Dharmveer Singh</div>
@@ -166,6 +116,62 @@ const Home = () => {
               />
             </div>
           </form>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export const Socical = () => {
+  return (
+    <>
+      <div className="social ">
+        <div>
+          <a
+            href="https://github.com/Dharmveer47"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {" "}
+            <BsGithub style={{ width: "25px", height: "25px" }} />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.instagram.com/dharmveer.47/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <BsInstagram style={{ width: "25px", height: "25px" }} />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/dharmveer-singh-54401020a/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <BsLinkedin style={{ width: "25px", height: "25px" }} />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.facebook.com/dharmveer47"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {" "}
+            <BsFacebook style={{ width: "25px", height: "25px" }} />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://twitter.com/DharmuBurning"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <BsTwitter style={{ width: "25px", height: "25px" }} />
+          </a>
         </div>
       </div>
     </>

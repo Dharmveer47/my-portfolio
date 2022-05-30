@@ -16,7 +16,7 @@ const Navbar = () => {
   const [MenuClick, setMenuCli] = useState("");
   const showLinks = () => {
     if (MenuClick === "Links2") {
-      setMenuCli(" ");
+      setMenuCli("Links3");
     } else {
       setMenuCli("Links2");
     }

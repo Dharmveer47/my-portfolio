@@ -3,13 +3,14 @@ const ProjectsInfo = [
         "id": "01",
         "Name": "Movie Space",
         "Info": `Here's you can search any movies, tv shows and web series also you can see movies info . Using The Movies DataBase API fetch data and display items. it's fully responsive and Highly reusable components .`,
-        "link": "https://movies47.netlify.app",
-        "gitLink": "https://github.com/Dharmveer47/TheMovieDb",
+        "link": "https://movies-space.netlify.app",
+        "gitLink": "https://github.com/Dharmveer47/movie-space",
         "skill": ['HTML5','Styled Components','React','API'],
         "img": "https://raw.githubusercontent.com/Dharmveer47/PortfolioImg/master/moviesDB.png",
         // "figma": "https://www.figma.com/file/JN0aLCqm5CifsX3AZ532f6/Portfolio",
         "figma": "https://www.figma.com/file/DfRyBhpXsnIp8XDMngJ1B5/Mymovies"
     },
+    
     {
         "id": "02",
         "Name": "Service Provider",

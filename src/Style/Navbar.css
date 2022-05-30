@@ -5,6 +5,9 @@
     justify-content: space-between;
     counter-reset: section;
     z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .Links{
     display: flex;
@@ -61,15 +64,27 @@
 }
 @media screen and (max-width:676px){
     .Links{
-        display: none;
+       position: absolute;
+       scale: 0;
+       transition: all 0.5s ease-in-out;
     }
     .Links2{
-        animation: aninav .2s alternate ;
-        transform: translateY(20%);
+        position: absolute;
+        top: 4.5rem;
+        width: 100%;
+        z-index: 50;
+        scale: 1;
         /* border: 1px solid black; */
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
+        justify-content: center;
+        background-color: var(--bg); 
+        padding: 10px;
+
+    }
+    .Links3{
+        transform: translateY(100%);
     }
     .NavBar{
         align-items: flex-start;
@@ -88,8 +103,10 @@
 @keyframes aninav {
     0%{
         transform: translateX(100%);
+        scale: 0;
     }
     100%{
-        transform: translateY(20%);
+        transform: translateX(0%);
+        scale: 1;
     }
 }
