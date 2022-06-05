@@ -35,9 +35,12 @@
     font-weight: bold;
 }
 .proSkills{
-    min-width: 300px;
+    /* min-width: 300px; */
     /* border: 1px solid white; */
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .proSkills>ul{
     font-weight: bold;
@@ -45,7 +48,10 @@
     display: flex;
     /* align-items: left; */
     justify-content: space-between;
+    flex-wrap: wrap;
     /* border: 1px solid red; */
+    text-decoration: none;
+
     
 }
 .proLinks{
