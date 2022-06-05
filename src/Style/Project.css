@@ -9,12 +9,13 @@
     padding-bottom: 50px;
     padding-left: 50px;
     /* border: 1px solid red; */
+    overflow: hidden;
     width: 80%;
     margin: auto;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .proImg{
     order: 0;
@@ -50,7 +51,7 @@
 .proLinks{
     /* border: 1px solid rgb(2, 241, 94); */
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     list-style-image: url(../ImgIco/triangle-right-arrow.svg);
 }
