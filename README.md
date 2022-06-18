@@ -1,6 +1,7 @@
 # It's my beautiful portfolio using react js
-
+[Open new tab](https://dharmveer47.github.io/)
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
+
 
 ## Available Scripts
 
